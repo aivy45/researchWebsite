@@ -1,0 +1,39 @@
+.conference{
+    margin: 4vh 0;
+}
+.conference h1{
+    width: 95%;
+    margin: 0 auto;
+}
+.coContainer{
+    width: 97%;
+    margin:2vh auto;
+    display: flex;
+    gap: 20px;
+}
+
+.conference .coAddress{
+    width: 97%;
+    margin: 0 auto;
+}
+.conference .coAddress h2{
+    font-weight: 500;
+    font-size: 18px;
+}
+.conference .coAddress h1{
+    margin: 2vh 0;
+}
+
+
+@media(max-width:900px)
+{
+    .coContainer{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+    .coRight{
+        margin: 4vh 0;
+    }
+}

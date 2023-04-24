@@ -1,0 +1,76 @@
+.footer{
+    background-color: var(--color-bg2);
+    color: #fff;
+    padding: 2vh 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.footer .container, .footer .f_lower{
+    width: 80%;
+    margin: 0 auto;
+}
+.fmain{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: var(--color-bg1) 0px 5px 15px;
+   padding: 1rem ;
+   width: 98%;
+   margin: 0 auto;
+   align-items: center;
+   gap: 2rem;
+   flex-wrap: wrap;
+}
+.fleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    margin-bottom: 5vh;
+    
+}
+.fleft .social{
+    display: flex;
+    gap: 10px;
+}
+.fleft .social a{
+    color: #fff;
+text-decoration: none;
+}
+
+.fleft .details{
+    text-align: center;
+}
+
+.fright .links{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.fright .links p{
+color: #fff;
+font-weight: 800;
+    cursor: pointer;
+}
+ 
+.fright .links p:hover{
+    color: #000;
+}
+
+.line{
+    width: 90%;
+    margin: 4vh auto;
+}
+
+.f_lower{
+    padding-top: 2vh;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.f_lower h3{
+    font-weight: 400;
+    font-size: 18px;
+}

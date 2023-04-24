@@ -1,0 +1,30 @@
+.AdCmte{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+    margin: 8vh 0;
+}
+.AdvisoryCmte{
+    width: 96%;
+    margin: 2vh auto;
+}
+.AdvisoryCmte h2{
+    font-size: 2rem;
+    margin-bottom: 1vh;
+
+}
+.AdvisoryCmte hr{
+    z-index: -1;
+}
+
+
+/* adding media query  */
+@media(max-width:1000px)
+{
+    .AdCmte{
+grid-template-columns: 1fr;
+    }
+    .AdvisoryCmte{
+        width: 90%;
+    }
+}

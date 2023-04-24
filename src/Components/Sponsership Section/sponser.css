@@ -1,0 +1,15 @@
+.sponsorPara{
+line-height: 3vh;
+}
+
+#sponsorGreeting{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+#sponsorGreeting a{
+    font-size: 20px;
+    color: rgb(4, 118, 232);
+   font-weight: 700;
+}
+

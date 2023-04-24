@@ -1,0 +1,22 @@
+
+.steering{
+    width: 96%;
+    margin: 2rem auto;
+}
+.steering h1{
+    margin: 2vh 0;
+}
+.stCommittee{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 4vh 0;
+    gap: 20px; 
+}
+
+
+@media(max-width:1000px)
+{
+    .stCommittee{
+grid-template-columns: 1fr;
+    }
+}

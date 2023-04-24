@@ -1,0 +1,62 @@
+.spSessionHeading h1{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+}
+
+.main-card{
+    width: 90%;
+    margin:2vh auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    z-index: -1;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    color:white;
+    font-size: 1.4rem;
+    padding: 15px;
+    margin:6px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%),
+        0 6px 20px 0 rgb(0 0 0 / 19%);
+        transition: all 1s ease-in-out;
+} 
+.card:hover{
+    transform: translateY(-12px);
+    cursor: pointer;
+}
+.margin-less{
+    margin-top:0px;
+}
+.card-link{
+    text-decoration: none;
+    color:var(--color-bg);
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-link:hover{
+    color: black;
+}
+.zero-margin{
+    font-size: 18px;
+    margin: 2vh 0 0 0;
+}
+.ul-zero-margin{
+  margin: 2vh;
+  font-size: 16px;
+}
+
+
+
+/* adding media queries  */
+@media(max-width:800px)
+{
+    .main-card{
+        grid-template-columns: 1fr;
+    }
+}

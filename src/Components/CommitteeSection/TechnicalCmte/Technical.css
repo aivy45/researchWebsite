@@ -1,0 +1,26 @@
+.technical{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+}
+.tecImpDate{
+    margin: 4vh 0;
+}
+.technicalMain{
+    width: 98%;
+    margin: 2vh auto;
+    margin-top: 6vh;
+}
+.technicalMain h3{
+    margin: 3vh 0;
+    font-size: 2rem;
+} 
+
+
+
+@media(max-width:1000px)
+{
+    .technical{
+grid-template-columns: 1fr;
+    }
+}

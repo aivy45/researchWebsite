@@ -1,0 +1,61 @@
+.doHeading{
+    width: 96%;
+    margin: 2vh auto;
+    font-weight: 500;
+}
+
+.pdfImp{
+    width: 96%;
+    margin: 6vh auto;
+}
+
+
+
+.doPdf{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.doPdf .pdf{
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    border-radius: 12px;
+    padding: 4vh;
+    cursor: pointer;
+}
+.doPdf .pdf:hover{
+    background-color: var(--color-bg2);
+}
+.doPdf .pdf h1{
+    font-size: 20px;
+    color: #fff;
+}
+.doPdf .pdf a{
+    color: rgb(42, 39, 39);
+}
+
+.pdfImp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+/* media query  */
+@media(max-width:800px)
+{
+    .doPdf{
+        grid-template-columns: 1fr;
+    }
+    .pdfImp{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .doPdf .pdf h1{
+        font-size: 16px;
+    }
+}

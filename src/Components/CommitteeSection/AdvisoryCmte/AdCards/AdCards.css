@@ -1,0 +1,31 @@
+.adCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.adCard h1{
+  font-size: 1rem;
+  color: #e7e7e7;
+}
+.adCard{
+    background-color: var(--color-primary);
+    padding: 4vh 2vh;
+    border-radius: 6px;
+    box-shadow: rgba(8, 0, 255, 0.4) 5px 5px, rgba(8, 0, 255, 0.3) 10px 10px, rgba(8, 0, 255, 0.2) 15px 15px, rgba(8, 0, 255, 0.1) 20px 20px, rgba(8, 0, 255, 0.05) 25px 25px;
+  transition: all 0.3s ease-in;
+}
+.adCard:hover{
+    transform: translateY(-6px);
+}
+
+/* media query  */
+@media(max-width:550px)
+{
+    .adCards{
+        grid-template-columns: 1fr ;
+    gap: 2rem;
+
+    }
+
+}

@@ -1,0 +1,16 @@
+.date_notices{
+    display:grid;
+  grid-template-columns:repeat(2,1fr);
+  width:98%;
+  margin:auto;
+  justify-content:center;
+  margin:4vh 0;
+}
+
+@media(max-width:800px)
+{
+    .date_notices{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
